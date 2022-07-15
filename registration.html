@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <script type="text/javascript" src="index.js"></script>
+
+    <style>
+        *{
+            margin-bottom: 3px;
+            padding-bottom: 6px;
+            display:inline-block;
+
+        }
+       
+    </style>
+
+  </head>
+  <body>
+    <form class="form" id="fom" action="">
+        <div>
+          <label for="id">ID</label>
+          <input type="number"  id="ID">
+        </div>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+        </div>
+        
+        <div>
+            <label for="Phone">Phone</label>
+            <input type="number" id="Phone">
+        </div>
+        <div>
+            <label for="Univesity/College">Univesity/College</label>
+            <input type="text" id="Univesity/College">
+        </div> 
+        <div>
+            <label for="Course">Course</label>
+           
+            <input type="text" id="Course"> 
+            <select name="product" id="product">
+                <option value="Degree">Degree</option>
+                <option value="Diploma">Diploma</option>
+                <option value="Certificate">Certificate</option>
+            </select>
+        </div>
+        <div>
+          <label for="Department">Department attached</label> 
+          <input type="text" id="Department">
+          <select name="Department" id="Department">
+              <option value="ICT">ICT</option>
+              <option value="HR">HR</option>
+              <option value="TV">TV</option>
+              <option value="Newsroom">Newsroom</option>
+              <option value="Digital">Digital</option>
+              <option value="PR">PR</option>
+              <option value="Legal">Legal</option>
+              <option value="Technical">Technical</option>
+              <option value="Finance & ADM">Finance & ADM</option>
+          </select>
+        </div>
+         <div>
+            <label for="Period">Period</label>
+            <input type="text" id="Inaccurate period">
+            <select name="Period" id="Period">
+                <option value="JAN-MAR">JAN-MAR</option>
+                <option value="APR-JUN">APR-JUN</option>
+                <option value="JUL-SEP">JUL-SEP</option>
+                <option value="OCT-DEC">OCT-DEC</option>
+            </select>
+        </div> 
+        <div>
+            <label for="Reporting date">Reporting date</label>
+            <input type="date" id="Reporting date">
+        </div>
+        <div>
+            <label for="End date">End date</label>
+            <input type="date" id="End date">
+        </div>
+       
+        <input type="submit" value="Send">
+    </form>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  </body>
+</html>
