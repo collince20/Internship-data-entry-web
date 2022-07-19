@@ -68,7 +68,6 @@ img{
     justify-content: space-between;
     margin: 0;
     position: sticky;
-    /* top: 0; */
     background-color: #c2cab8;
     z-index: 1;
     box-shadow: #003d00 0 0 5px 0;
