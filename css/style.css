@@ -14,6 +14,12 @@
     box-shadow: 12px 12px 12px rgb(145, 105, 3);
 }
 
+.rx{
+    margin-bottom: 3px;
+    padding-bottom: 6px;
+    display: inline-block;
+}
+
 img{
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
