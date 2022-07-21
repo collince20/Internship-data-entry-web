@@ -14,12 +14,6 @@
     box-shadow: 12px 12px 12px rgb(145, 105, 3);
 }
 
-.rx{
-    margin-bottom: 3px;
-    padding-bottom: 6px;
-    display: inline-block;
-}
-
 img{
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -77,5 +71,30 @@ img{
     background-color: #c2cab8;
     z-index: 1;
     box-shadow: #003d00 0 0 5px 0;
+  }
+
+  .containerr{
+    text-align: center;
+
+  }
+
+  .row2 {
+    background: white;
+    border-radius: 25px;
+    box-shadow: 12px 12px 12px rgb(5, 32, 163);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 34px;
+    display: inline-block;
+    text-align: justify;
+
+  }
+
+  #fom{
+   display: inline-block;
+  }
+  
+  .bod2{
+    background: rgb(170, 170, 245);
   }
    
