@@ -56,6 +56,11 @@ img{
     border: 1px solid;
     color: blue;
 }
+
+.btn4{
+    background-color: rgb(3, 53, 123);
+    color: white;
+}
         
 .navbar{
     min-height: 50px;
@@ -86,7 +91,7 @@ img{
     margin-bottom: 50px;
     padding-bottom: 34px;
     display: inline-block;
-    text-align: justify;
+    text-align: center;
 
   }
 
@@ -96,5 +101,11 @@ img{
   
   .bod2{
     background: rgb(170, 170, 245);
+  }
+
+  input {
+    display: block;
+    margin-right: 50px;
+    margin-left: 50px;
   }
    
